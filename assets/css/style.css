@@ -69,12 +69,12 @@ header {
 }
 .text-work {
 	text-transform: uppercase;
-	text-align: center;
+	text-align:center;
 }
 
 #work .container {
 	background: white;
-	height: 554px;
+	height: 350px;
 	color: black;
 	padding:70px;
 
@@ -82,24 +82,29 @@ header {
 .work-img >img{
 	display: inline-block;
 	background: white;
-	margin-left: 160px;
+	margin-left: 130px;
+
+}
+.box-work {
+	display: inline-block;
+	width: 300px;
+	height: 200px;
+	background:white;
+	margin-top:50px;
+	margin-left: 50px;
+	
 }
 .box-work >img {
-	display: inline-block;
-
-	height: 200px;
-	float:left;
-	background: white;
-	margin:50px;
+	width: 200px;
+	height: 150px;
+	padding: 10px;
+    margin:35px;
 }
 
 .container >h4 {
 	text-align: center;
 }
-.box-work >h4 {
-	position: absolute;
 
-}
 footer {
-	position: absolute;
+	background: gray;
 }
